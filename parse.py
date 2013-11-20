@@ -14,7 +14,6 @@ class WP_Importer(object):
         self.filename = filename
         self.do_convert = do_convert
         self.wp_namespace = "http://wordpress.org/export/1.2/"
-        self.dp_namespace = "http://purl.org/dc/elements/1.1/"
 
     def convert_To_Rst(self, html):
         """Converts html to Rst"""
